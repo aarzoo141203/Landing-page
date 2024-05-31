@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Poppins';
+
+}
+
+.container{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Start Landing Page */
+
+.landing-page{
+
+    position: relative;
+    background: #800559;
+}
+
+.landing-page .header-area{
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.landing-page .header-area .logo{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 300px;
+    color: rgb(128, 128, 128);
+}
+
+.landing-page .header-area .links{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li{
+    display: inline-block;
+    margin-left: 30px;
+    color: hsl(150, 98%, 48%);
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:hover{
+    font-size: 20px;
+}
+
+.landing-page .header-area .links li:last-child{
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: rgb(255, 255, 255);
+    background-color: purple;
+}
+
+.landing-page .info{
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+}
+
+.landing-page .info h1{
+    font-style: 45px;
+    margin:  0 0 20px;
+    line-height: 1.4;
+    color: hsl(28, 100%, 51%);
+}
+
+
+.landing-page .info p{
+    margin:  0 ;
+    line-height: 1.5;
+    color: #4f9021;
+}
+
+
+.landing-page .info button{
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(170, 127, 255);
+    font-weight: bold;
+}
+
+.landing-page .image{
+    width: 55%;
+    float: right;
+    margin-top: 80px;
+}
+
+.landing-page .image img{
+    max-width: 120%;
+}
+
+.clearfix{
+    clear: both;
+}
